@@ -127,6 +127,16 @@
 .userDp:hover{
     cursor: pointer;
 }
+.menu-items.active{
+    border-radius: 8px;
+    background-color: #FD6927;
+}
+.menu-items:hover{
+    cursor: pointer;
+}
+.logo-txt:hover{
+    cursor: pointer;
+}
 @media (max-width : 900px) {
     .menu-icon{
         display: flex !important;

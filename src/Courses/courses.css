@@ -1,0 +1,11 @@
+.course-outer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-container{
+    width: 90%;
+}

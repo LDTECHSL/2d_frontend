@@ -29,6 +29,12 @@
     justify-content: left;
     align-items: center;
 }
+.head-text2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+}
 .topic{
     color: white;
     font-size: 30px;
@@ -41,5 +47,32 @@
 }
 .btnCourse{
     background-color: #FD6927 !important;
-    width: 30%;
+    width: 70%;
+}
+.home-img{
+    width: 80%;
+    height: auto;
+    margin-top: 25px;
+}
+
+@media (max-width : 900px) {
+    .home-outer{
+        display: block;
+        background-color: black;
+        padding-top: 80px;
+    }
+    .home-inner{
+        width: 100%;
+        background-color: black;
+        height: auto;
+    }
+    .head-text{
+        justify-content: center;
+    }
+    .para{
+        text-align: justify;
+    }
+    .head-text2{
+        justify-content: center;
+    }
 }
