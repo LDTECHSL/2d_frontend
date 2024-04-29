@@ -1,0 +1,140 @@
+*{
+    /*border: 1px solid red;*/
+}
+.navbar-outer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+.logo-outer{
+    width: 20%;
+    height: auto;
+    padding: 10px 0 10px 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.menu-outer{
+    width: 80%;
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo{
+    width: 50px;
+}
+.logo-txt{
+    font-size: 25px;
+    color: #FD6927;
+    font-weight: bold;
+}
+.lt1{
+    color: white;
+}
+.menu-items{
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    margin: 5px;
+}
+.list{
+    color: white;
+    font-size: 16px;
+}
+.menu-items:hover{
+    border-radius: 8px;
+    background-color: #FD6927;
+}
+.user{
+    width: 10%;
+    height: auto;
+    position: fixed;
+    top : 20px;
+    right: 20px;
+    color: #FD6927;
+}
+.userDp{
+    width: 40px;
+    height: auto;
+    position: fixed;
+    top: 12px;
+    right: 18px;
+}
+.menu-icon{
+    color: #FD6927;
+    display: none !important;
+}
+.side-menu-outer{
+    display: none;
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+    z-index: 10;
+    position: fixed;
+    top: 70px;
+}
+.side-menu-inner{
+    padding-top: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.logout-btn{
+    margin-top: 25px !important;
+    width: 150px;
+    background-color: #FD6927 !important;
+}
+.btn{
+    width: 150px;
+    background-color: #FD6927 !important;
+    z-index: 9 !important;
+}
+.profile-outer{
+    width: 200px;
+    height: 180px;
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    z-index: 9;
+    background-color: white;
+}
+.p-inner{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+.username-txt{
+    font-size: 17px;
+}
+.pin{
+    border-bottom: 1px solid black;
+    height: 70px;
+}
+.userDp:hover{
+    cursor: pointer;
+}
+@media (max-width : 900px) {
+    .menu-icon{
+        display: flex !important;
+    }
+    .menu-outer{
+        display: none;
+    }
+    .side-menu-outer{
+        display: block;
+    }
+}

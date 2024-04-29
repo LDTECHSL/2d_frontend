@@ -1,0 +1,95 @@
+*{
+    /*border: 1px solid red;*/
+}
+.login-outerS{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/back2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login-innerS{
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.login-headerS{
+    width: auto;
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt1S{
+    color: white;
+    font-size: 22px;
+}
+.txtFieldS{
+    width: 90%;
+}
+.visibleS{
+    color: white;
+}
+.nonVisibleS{
+    color: white;
+}
+.visibleS:hover{
+    cursor: pointer;
+}
+.nonVisibleS:hover{
+    cursor: pointer;
+}
+.login-btnS{
+    width: 90%;
+    background-color: #FD6927 !important;
+}
+.login_imgS{
+    width: 80px;
+    height: auto;
+    color: #FD6927;
+}
+.text-inS{
+    width: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+}
+.text-in1S{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.txt2S:hover{
+    cursor: pointer;
+}
+.txt3S{
+    font-size: 12px;
+    color: gray;
+}
+
+@media (max-width: 1025px){
+    .login-innerS{
+        width: 40%;
+    }
+    .txt2S{
+        font-size: 13px;
+    }
+}
+@media (max-width: 640px) {
+    .login-innerS{
+        width: 80%;
+    }
+    .text-in1S{
+        width: 50%;
+    }
+}
