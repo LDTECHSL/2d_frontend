@@ -1,0 +1,33 @@
+*{
+    /*border: 1px solid red;*/
+}
+
+.about-outer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 70px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.about-img-outer{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.about-img{
+    width: 80%;
+    height: auto;
+}
+.main-text-outer{
+    width: 60%;
+}
+.about-txt{
+    color: white;
+    text-align: justify;
+    padding: 0 40px;
+}
